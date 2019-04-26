@@ -19,12 +19,14 @@ namespace TwitchDatabase
 
         private void btnAddPerson_Click(object sender, EventArgs e)
         {
-
+            var Add = new AddPerson();
+            Add.Show();
         }
 
         private void btnSearchDB_Click(object sender, EventArgs e)
         {
-            
+            var Search = new Search();
+            Search.Show();
         }
     }
 }
