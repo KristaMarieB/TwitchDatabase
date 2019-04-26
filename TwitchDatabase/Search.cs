@@ -10,21 +10,16 @@ using System.Windows.Forms;
 
 namespace TwitchDatabase
 {
-    public partial class Form1 : Form
+    public partial class Search : Form
     {
-        public Form1()
+        public Search()
         {
             InitializeComponent();
         }
 
-        private void btnAddPerson_Click(object sender, EventArgs e)
+        private void Search_Load(object sender, EventArgs e)
         {
 
-        }
-
-        private void btnSearchDB_Click(object sender, EventArgs e)
-        {
-            
         }
     }
 }
