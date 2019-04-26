@@ -29,15 +29,15 @@
         private void InitializeComponent()
         {
             this.btnAdd = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.txtNewFName = new System.Windows.Forms.TextBox();
+            this.txtNewLName = new System.Windows.Forms.TextBox();
+            this.txtNewTwitchUN = new System.Windows.Forms.TextBox();
+            this.txtNewLeagueUN = new System.Windows.Forms.TextBox();
+            this.txtNewDiscordUN = new System.Windows.Forms.TextBox();
+            this.txtNewInstaUN = new System.Windows.Forms.TextBox();
+            this.txtNewTwitterUN = new System.Windows.Forms.TextBox();
+            this.txtNewIsSubscribed = new System.Windows.Forms.TextBox();
+            this.txtNewTier = new System.Windows.Forms.TextBox();
             this.lblNewFName = new System.Windows.Forms.Label();
             this.lblNewLName = new System.Windows.Forms.Label();
             this.lblNewTwitchUN = new System.Windows.Forms.Label();
@@ -59,68 +59,68 @@
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
-            // textBox1
+            // txtNewFName
             // 
-            this.textBox1.Location = new System.Drawing.Point(160, 53);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(250, 20);
-            this.textBox1.TabIndex = 1;
+            this.txtNewFName.Location = new System.Drawing.Point(160, 53);
+            this.txtNewFName.Name = "txtNewFName";
+            this.txtNewFName.Size = new System.Drawing.Size(250, 20);
+            this.txtNewFName.TabIndex = 1;
             // 
-            // textBox2
+            // txtNewLName
             // 
-            this.textBox2.Location = new System.Drawing.Point(160, 79);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(250, 20);
-            this.textBox2.TabIndex = 2;
+            this.txtNewLName.Location = new System.Drawing.Point(160, 79);
+            this.txtNewLName.Name = "txtNewLName";
+            this.txtNewLName.Size = new System.Drawing.Size(250, 20);
+            this.txtNewLName.TabIndex = 2;
             // 
-            // textBox3
+            // txtNewTwitchUN
             // 
-            this.textBox3.Location = new System.Drawing.Point(160, 105);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(250, 20);
-            this.textBox3.TabIndex = 3;
+            this.txtNewTwitchUN.Location = new System.Drawing.Point(160, 105);
+            this.txtNewTwitchUN.Name = "txtNewTwitchUN";
+            this.txtNewTwitchUN.Size = new System.Drawing.Size(250, 20);
+            this.txtNewTwitchUN.TabIndex = 3;
             // 
-            // textBox4
+            // txtNewLeagueUN
             // 
-            this.textBox4.Location = new System.Drawing.Point(160, 131);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(250, 20);
-            this.textBox4.TabIndex = 4;
+            this.txtNewLeagueUN.Location = new System.Drawing.Point(160, 131);
+            this.txtNewLeagueUN.Name = "txtNewLeagueUN";
+            this.txtNewLeagueUN.Size = new System.Drawing.Size(250, 20);
+            this.txtNewLeagueUN.TabIndex = 4;
             // 
-            // textBox5
+            // txtNewDiscordUN
             // 
-            this.textBox5.Location = new System.Drawing.Point(160, 157);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(250, 20);
-            this.textBox5.TabIndex = 5;
+            this.txtNewDiscordUN.Location = new System.Drawing.Point(160, 157);
+            this.txtNewDiscordUN.Name = "txtNewDiscordUN";
+            this.txtNewDiscordUN.Size = new System.Drawing.Size(250, 20);
+            this.txtNewDiscordUN.TabIndex = 5;
             // 
-            // textBox6
+            // txtNewInstaUN
             // 
-            this.textBox6.Location = new System.Drawing.Point(160, 183);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(250, 20);
-            this.textBox6.TabIndex = 6;
+            this.txtNewInstaUN.Location = new System.Drawing.Point(160, 183);
+            this.txtNewInstaUN.Name = "txtNewInstaUN";
+            this.txtNewInstaUN.Size = new System.Drawing.Size(250, 20);
+            this.txtNewInstaUN.TabIndex = 6;
             // 
-            // textBox7
+            // txtNewTwitterUN
             // 
-            this.textBox7.Location = new System.Drawing.Point(160, 209);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(250, 20);
-            this.textBox7.TabIndex = 7;
+            this.txtNewTwitterUN.Location = new System.Drawing.Point(160, 209);
+            this.txtNewTwitterUN.Name = "txtNewTwitterUN";
+            this.txtNewTwitterUN.Size = new System.Drawing.Size(250, 20);
+            this.txtNewTwitterUN.TabIndex = 7;
             // 
-            // textBox8
+            // txtNewIsSubscribed
             // 
-            this.textBox8.Location = new System.Drawing.Point(160, 235);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(250, 20);
-            this.textBox8.TabIndex = 8;
+            this.txtNewIsSubscribed.Location = new System.Drawing.Point(160, 235);
+            this.txtNewIsSubscribed.Name = "txtNewIsSubscribed";
+            this.txtNewIsSubscribed.Size = new System.Drawing.Size(250, 20);
+            this.txtNewIsSubscribed.TabIndex = 8;
             // 
-            // textBox9
+            // txtNewTier
             // 
-            this.textBox9.Location = new System.Drawing.Point(160, 258);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(250, 20);
-            this.textBox9.TabIndex = 9;
+            this.txtNewTier.Location = new System.Drawing.Point(160, 258);
+            this.txtNewTier.Name = "txtNewTier";
+            this.txtNewTier.Size = new System.Drawing.Size(250, 20);
+            this.txtNewTier.TabIndex = 9;
             // 
             // lblNewFName
             // 
@@ -217,15 +217,15 @@
             this.Controls.Add(this.lblNewTwitchUN);
             this.Controls.Add(this.lblNewLName);
             this.Controls.Add(this.lblNewFName);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtNewTier);
+            this.Controls.Add(this.txtNewIsSubscribed);
+            this.Controls.Add(this.txtNewTwitterUN);
+            this.Controls.Add(this.txtNewInstaUN);
+            this.Controls.Add(this.txtNewDiscordUN);
+            this.Controls.Add(this.txtNewLeagueUN);
+            this.Controls.Add(this.txtNewTwitchUN);
+            this.Controls.Add(this.txtNewLName);
+            this.Controls.Add(this.txtNewFName);
             this.Controls.Add(this.btnAdd);
             this.Name = "AddPerson";
             this.Text = "AddPerson";
@@ -237,15 +237,15 @@
         #endregion
 
         private System.Windows.Forms.Button btnAdd;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox txtNewFName;
+        private System.Windows.Forms.TextBox txtNewLName;
+        private System.Windows.Forms.TextBox txtNewTwitchUN;
+        private System.Windows.Forms.TextBox txtNewLeagueUN;
+        private System.Windows.Forms.TextBox txtNewDiscordUN;
+        private System.Windows.Forms.TextBox txtNewInstaUN;
+        private System.Windows.Forms.TextBox txtNewTwitterUN;
+        private System.Windows.Forms.TextBox txtNewIsSubscribed;
+        private System.Windows.Forms.TextBox txtNewTier;
         private System.Windows.Forms.Label lblNewFName;
         private System.Windows.Forms.Label lblNewLName;
         private System.Windows.Forms.Label lblNewTwitchUN;

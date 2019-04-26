@@ -19,7 +19,7 @@ namespace TwitchDatabase
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            
+            // add person to database
         }
     }
 }
